@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-preview.5.21301.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Farhurkala_Store.Common\Farhurkala_Store.Common.csproj" />
+    <ProjectReference Include="..\Farhurkala_Store.Domain\Farhurkala_Store.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
